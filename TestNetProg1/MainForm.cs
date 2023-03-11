@@ -22,6 +22,10 @@ namespace TestNetProg1
 
         }
 
+        private void MaraphoneTimer_Tick(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }
