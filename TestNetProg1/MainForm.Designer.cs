@@ -37,7 +37,7 @@
             this.Button_More_Info = new System.Windows.Forms.Button();
             this.Button_Registration = new System.Windows.Forms.Button();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.label3 = new System.Windows.Forms.Label();
+            this.labelwithtimetomarathone = new System.Windows.Forms.Label();
             this.MaraphoneTimer = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
@@ -137,26 +137,26 @@
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.DimGray;
-            this.flowLayoutPanel1.Controls.Add(this.label3);
+            this.flowLayoutPanel1.Controls.Add(this.labelwithtimetomarathone);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 910);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(1904, 131);
             this.flowLayoutPanel1.TabIndex = 5;
             // 
-            // label3
+            // labelwithtimetomarathone
             // 
-            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.labelwithtimetomarathone.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label3.BackColor = System.Drawing.Color.DimGray;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label3.Location = new System.Drawing.Point(3, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(1901, 131);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "None дней None часов и None минут до старта марафона\r\n";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelwithtimetomarathone.BackColor = System.Drawing.Color.DimGray;
+            this.labelwithtimetomarathone.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelwithtimetomarathone.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.labelwithtimetomarathone.Location = new System.Drawing.Point(3, 0);
+            this.labelwithtimetomarathone.Name = "labelwithtimetomarathone";
+            this.labelwithtimetomarathone.Size = new System.Drawing.Size(1901, 131);
+            this.labelwithtimetomarathone.TabIndex = 6;
+            this.labelwithtimetomarathone.Text = "None дней None часов и None минут до старта марафона\r\n";
+            this.labelwithtimetomarathone.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // MaraphoneTimer
             // 
@@ -201,7 +201,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label labelwithtimetomarathone;
         private System.Windows.Forms.Timer MaraphoneTimer;
     }
 }
